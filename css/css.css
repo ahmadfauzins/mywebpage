@@ -1,0 +1,287 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+* { margin: 0; }
+body { 	background: url(../img/ds.png);
+	background-image:cover;
+	margin:10px auto; padding:0; 
+	background-repeat: no-repeat;
+	background-size: 2000px 1000px;
+	font-family: Raleway, sans-serif;
+    line-height: 2; }
+
+#frame
+	{ background: url(../img/back.jpg);
+	margin:auto;
+	border-radius: 20px 20px;
+	width:1200px;
+	height: 750px;
+    box-shadow: 0px 3px 5px 0px;}
+#header
+	{ height:100x;
+	margin:auto;
+}
+
+
+#isi-header
+	{height:150px; 
+	margin:auto;
+	background:}
+
+#menu-top
+	{ font-size:small;
+	height:20px;
+	float:right;
+	padding:0px 10px;
+	font-weight:bold;}
+
+#logo
+	{ float:left;
+	margin:10px 10px 10px 50px;
+	height:50px;}
+
+#site-title 
+h2
+	{ float:center;
+	padding:10px 10px;
+	height:50px;
+	margin:0px 0px;
+	font:1.9em/100% 'calibri';
+	font-weight:bold;
+	color:white;}
+
+
+#isi
+	{ clear:both; 
+		margin:0px;}
+#menu
+	{ float:left;
+	color: ;
+	width:200px;
+	height:575px;
+	background-color:}
+#content
+	{ float:right;	
+	width :1000px;
+	height:575px;
+	background-image: url(../img/backgo.jpg);
+	}
+#isicontent img {
+	width: 175px;
+	height: 175px;
+	border-radius: 50%;
+	margin-top: 20px;
+	margin-left: 400px;
+	margin-right: 400px;
+	margin-bottom: 20px;
+	border: 2px solid #eaeaea;
+	box-shadow: 2px 5px 2px 1px rgba(0,0,0,.5);
+}
+
+#teks p { text-align: justify;
+	color: blue;
+	font:1.5em/100%;
+	margin-right: 40px;
+	margin-left: 30px;
+}
+
+#isi-content
+	{ float:left;
+	margin:auto;
+	width:950px;
+	height:200px;}
+#isi-content p, h3 , h4 , h5
+	{ color:blue ; font-size:150%;
+	padding: 15px 0px 1px 10px;	
+	align: center;
+	line-height: 1.5; }
+
+.h2 {font-size: 16;
+	margin: 0px 30px 0px 30px;
+	text-align: justify;
+	line-height: 1.5;
+}
+
+.h3 {font-size: 40;
+	font-style:unset;
+	text-align: center;
+	line-height: 1;
+	text-shadow:rgba(0,0,0,0.3);
+}	
+.h4 {text-align: center;
+	font-style: italic;
+	font-size: 25;
+	padding: 10px 0px 0px 10px;	
+	line-height: 0.9;
+	margin: 0px 250px 0px 250px;
+}
+.h5 { line-height: 0.5;
+	text-align: center; 
+}
+
+.style1 {font-size:30%;
+		color:blue;}
+#isi-content hr{ width:950px ;  
+	color:blue;
+	margin: 20px 10px 0px 20px;}
+
+
+#nama  { color:blue;
+	background: white;
+	text-align:right;}
+#nama 
+	{ clear:both;
+	float: center;	
+	height:0px;
+	background-color:;
+	padding: 0px 20px 0px;
+	padding-top:0px;
+	box-shadow: 0px 3px 5px 0px;
+}
+
+
+.img-fluid {
+
+	border-radius: 20%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 2px solid #eaeaea;
+	box-shadow: 2px 5px 2px 1px rgba(0,0,0,.5);
+}
+#A h2{ font-size: 18;
+
+}
+
+#act  table{ margin-top: 10px;
+	margin-left: 30px;
+	text-align: justify all; 
+	line-height: 2;
+}
+img{border-radius: 10px;
+
+}
+
+//kode untuk tombol Menu//
+
+#tombol ul{
+	 padding: 20px 20px 20px 20px;
+	list-style:square;}
+#tombol ul { 
+	width:200px; list-style-type:none;
+	padding:0; margin:0;}
+
+#tombol a:link, 
+#tombol a:visited, 
+#tombol a:active { 
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	padding-left:15px;
+	text-decoration:none;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;}
+
+#tombol a { 
+	padding: 5px 0px 5px 15px; 
+	display:block;
+	background-color:rgba(0,0,0,0.3)	
+	no-repeat left center;
+	margin: 0px 0px 1px;
+	color:blue}
+
+#tombol a:hover { 
+  background: blue;
+  color: #fff;
+  text-shadow: 1px 2px 2px white;
+  transform:rotate(20deg);
+  box-shadow: 2px 4px 3px 2px #555;
+	
+	transform: translate(200px, 0);
+	transform: translate(0, 0);}
+
+
+
+
+
+
+//Untuk Profil Galeri Gambar
+#gbr tr {
+	padding: 70px;
+	
+	}
+
+
+
+
+//Untuk Jadwal Kuliah
+table.tabel { 
+	
+}
+#jadwal table{
+	margin-left: 30px;
+	margin-top: 1px;
+	border: 0px;
+	color: blue;
+	border-color: white;
+
+	
+}
+tr, td {
+	padding: 5px 10px;
+	text-align: center;
+	}
+
+th {
+	background-color: gray;
+	color: #fff;
+}
+
+
+
+#B table { margin-top: 15px;
+	border: 10px;
+	color: blue;
+	border-color: white;
+}
+
+tr, td {
+	padding: 5px 10px;
+	text-align: center;
+	}
+
+
+.img1 {
+-webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;
+}
+
+.img1:hover {
+-webkit-transform: scale(1.2) rotate(720deg);
+-moz-transform: scale(1.2) rotate(720deg);
+-o-transform: scale(1.2) rotate(720deg);
+-ms-transform: scale(2.2) rotate(720deg);
+transform: scale(1.5) rotate(720deg);
+}
+
+.txt p{margin-top: 0px;
+}
+.txt img { margin-top: 0px;
+	border-radius: 70px;
+	width: 100;
+	height: 100;
+}
+.txt table{margin-top: 0px;
+height: 70px;
+}
+.txt hr{margin-top: 0px;
+margin-bottom: 1px;
+
+}
